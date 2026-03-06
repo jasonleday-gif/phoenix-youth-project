@@ -682,8 +682,8 @@ function BrandonCyclingSection() {
         <div style={{ marginBottom: 16 }}>
           <div className="font-ui" style={{ color: COLORS.amber, letterSpacing: "0.15em", fontSize: "0.8rem", textTransform: "uppercase", marginBottom: 20 }}>Race Gallery</div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 12 }}>
-            <div className="placeholder-img" style={{ height: 180, borderRadius: 8, fontSize: "0.75rem" }}>
-              [ Tulsa Tough 2025 ]
+            <div style={{ height: 180, borderRadius: 8, overflow: "hidden" }}>
+              <img src="/images/PYP_TULSA_TOUGH.png" alt="Brandon Adams competing at Tulsa Tough 2025 criterium race" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 8 }} />
             </div>
             <div style={{ height: 180, borderRadius: 8, overflow: "hidden" }}>
               <img src="/images/PYP_BRANDON_ADAMS_AFTER.jpeg" alt="Brandon Adams at Hotter'N Hell 100" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 8 }} />
