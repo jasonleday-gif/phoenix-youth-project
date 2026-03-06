@@ -606,11 +606,11 @@ function OurStorySection() {
               <div className="font-ui" style={{ color: "rgba(255,255,255,0.4)", fontSize: "0.8rem", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: 4 }}>Founder & Inspiration</div>
             </div>
 
-            <div style={{ marginTop: 40 }}>
+            <div style={{ marginTop: 40, maxWidth: 360 }}>
               <img
                 src="/images/PYP_BRANDON_ADAMS.jpeg"
                 alt="Brandon Adams — Founder of The Phoenix Youth Project"
-                style={{ width: "100%", height: 280, objectFit: "cover", borderRadius: 8 }}
+                style={{ width: "100%", aspectRatio: "3/4", objectFit: "cover", objectPosition: "center top", borderRadius: 8, display: "block" }}
               />
             </div>
           </div>
@@ -664,7 +664,7 @@ function BrandonCyclingSection() {
         <img
           src="/images/PYP_BRANDON_ADAMS_RACE.jpeg"
           alt="Brandon Adams racing in a cycling criterium"
-          style={{ width: "100%", height: 420, objectFit: "cover", borderRadius: 12, marginBottom: 48 }}
+          style={{ width: "100%", aspectRatio: "21/9", objectFit: "cover", objectPosition: "center center", borderRadius: 12, marginBottom: 48, display: "block" }}
         />
 
         {/* Achievements */}
@@ -682,23 +682,23 @@ function BrandonCyclingSection() {
         <div style={{ marginBottom: 16 }}>
           <div className="font-ui" style={{ color: COLORS.amber, letterSpacing: "0.15em", fontSize: "0.8rem", textTransform: "uppercase", marginBottom: 20 }}>Race Gallery</div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 12 }}>
-            <div style={{ height: 180, borderRadius: 8, overflow: "hidden" }}>
-              <img src="/images/PYP_TULSA_TOUGH.png" alt="Brandon Adams competing at Tulsa Tough 2025 criterium race" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 8 }} />
+            <div style={{ aspectRatio: "3/4", borderRadius: 8, overflow: "hidden" }}>
+              <img src="/images/PYP_TULSA_TOUGH.png" alt="Brandon Adams competing at Tulsa Tough 2025 criterium race" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }} />
             </div>
-            <div style={{ height: 180, borderRadius: 8, overflow: "hidden" }}>
-              <img src="/images/PYP_BRANDON_ADAMS_AFTER.jpeg" alt="Brandon Adams at Hotter'N Hell 100" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 8 }} />
+            <div style={{ aspectRatio: "3/4", borderRadius: 8, overflow: "hidden" }}>
+              <img src="/images/PYP_BRANDON_ADAMS_AFTER.jpeg" alt="Brandon Adams at Hotter'N Hell 100" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }} />
             </div>
-            <div style={{ height: 180, borderRadius: 8, overflow: "hidden" }}>
-              <img src="/images/PYP_BRANDON_ADAMS_BIKE.jpeg" alt="Brandon Adams cycling in a crit race in Texas" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 8 }} />
+            <div style={{ aspectRatio: "3/4", borderRadius: 8, overflow: "hidden" }}>
+              <img src="/images/PYP_BRANDON_ADAMS_BIKE.jpeg" alt="Brandon Adams cycling in a crit race in Texas" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 20%" }} />
             </div>
-            <div style={{ height: 180, borderRadius: 8, overflow: "hidden" }}>
-              <img src="/images/PYP_BRANDON_ADAMS_JASON.png" alt="Phoenix Racing Team" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 8 }} />
+            <div style={{ aspectRatio: "3/4", borderRadius: 8, overflow: "hidden" }}>
+              <img src="/images/PYP_BRANDON_ADAMS_JASON.png" alt="Phoenix Racing Team" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }} />
             </div>
-            <div style={{ height: 180, borderRadius: 8, overflow: "hidden" }}>
-              <img src="/images/PYP_BRANDON_ADAMS_BIKE_BEFORE.jpeg" alt="Trek Houston community ride" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 8 }} />
+            <div style={{ aspectRatio: "3/4", borderRadius: 8, overflow: "hidden" }}>
+              <img src="/images/PYP_BRANDON_ADAMS_BIKE_BEFORE.jpeg" alt="Trek Houston community ride" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 20%" }} />
             </div>
-            <div style={{ height: 180, borderRadius: 8, overflow: "hidden" }}>
-              <img src="/images/PYP_BRANDON_ADAMS_BEFORE.jpeg" alt="Brandon Adams training session" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 8 }} />
+            <div style={{ aspectRatio: "3/4", borderRadius: 8, overflow: "hidden" }}>
+              <img src="/images/PYP_BRANDON_ADAMS_BEFORE.jpeg" alt="Brandon Adams training session" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center center" }} />
             </div>
           </div>
         </div>
